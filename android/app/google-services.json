@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "335387513443",
+    "firebase_url": "https://social-vape-default-rtdb.europe-west1.firebasedatabase.app",
+    "project_id": "social-vape",
+    "storage_bucket": "social-vape.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:335387513443:android:fbdb01778a7ad8c51b9e56",
+        "android_client_info": {
+          "package_name": "com.example.social_vape"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "335387513443-lve4069rao816tcsf8rrn2pnahkmue3c.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBzrpl9gX9_sn_0Z-mXZw9f0n0nIkbo55A"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "335387513443-lve4069rao816tcsf8rrn2pnahkmue3c.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "335387513443-gsalvq9tshuikoa48d63iqj7sgdaa7k7.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.socialVape"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
