@@ -83,7 +83,6 @@ class MyApp extends StatelessWidget {
             builder: (_ , child) {
               return MaterialApp(
                 debugShowCheckedModeBanner: false,
-                showPerformanceOverlay: true,
                 localizationsDelegates: const [
                   AppLocale.delegate,
                   GlobalMaterialLocalizations.delegate,

@@ -1,7 +1,6 @@
 import 'dart:async';
 import 'dart:io';
 import 'package:cloud_firestore/cloud_firestore.dart';
-import 'package:firebase_core/firebase_core.dart';
 import 'package:firebase_storage/firebase_storage.dart';
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
@@ -29,7 +28,6 @@ class SocialCubit extends Cubit<SocialStates> {
   Map<int,int> postPhotoIndex = {
     0:1
   } ;
-  Map<String,bool> postSavedOrNot = {} ;
   var indexNo =1;
   UserModel? userModel;
   var db = FirebaseFirestore.instance ;
@@ -113,7 +111,7 @@ class SocialCubit extends Cubit<SocialStates> {
       imageQuality: 70,
     );
 
-    if(pickedFile != null){
+    if(pickedFile.isNotEmpty){
       postImagePicker = pickedFile;
       emit(ProfileImagePickedSuccessState());
     }

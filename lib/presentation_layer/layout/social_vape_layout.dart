@@ -36,6 +36,7 @@ class _SocialLayoutState extends State<SocialLayout> with WidgetsBindingObserver
 @override
   void initState() {
     super.initState();
+    getInit();
     FirebaseMessaging.onMessageOpenedApp.listen((event) {
       SocialCubit.get(context).getUserDataWithUid(event.data['uId']).then((value){
         navigateToAnimated(

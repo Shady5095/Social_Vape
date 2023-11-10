@@ -31,7 +31,7 @@ import 'message_images_screen.dart';
 class ChatsDetailsScreen extends StatefulWidget {
   final UserModel userModel ;
 
-  ChatsDetailsScreen({
+  const ChatsDetailsScreen({super.key,
     required this.userModel,
   });
 
